@@ -9,6 +9,12 @@ html, body
 a, a:hover, a:focus, a:active
 {
     text-decoration: none;  /*default link = ada garis bawah, nah dg seperti ini buat ilangin garis bawah */
+    outline: none; /*remove blue outline on bootstrap link & button*/
+}
+
+button, button:hover, button:focus, button:active
+{
+   outline: none; /*remove blue outline on bootstrap link & button*/ 
 }
 
 header
@@ -91,6 +97,23 @@ footer .navbar ul li a
     padding-bottom: 20px;
 }
 
+/* back button on secondary page */
+footer .back-button
+{
+    font-size: 24px;
+    font-weight: 300;
+    color: #646464;
+    vertical-align: middle;
+}
+footer .back-button span
+{
+    display: inline-block;
+    vertical-align: middle;
+}
+footer .back-button img
+{
+    margin-right: 10px;
+}
 
 /* modal */
 .modal
@@ -181,6 +204,60 @@ section.product-list .btn img
     max-height: 85px;
 }
 /* -------------------------- End of Homepage -------------------------- */
+
+/* -------------------------- Page: Topup Product -------------------------- */
+section.topup-product
+{
+
+}
+
+section.topup-product h1
+{
+    font-size: 35px;
+    color: #95989A;
+    font-weight: 500;
+}
+
+section.topup-product .form-group
+{
+    position: relative;
+}
+section.topup-product .form-group label
+{
+    font-size: 23px;
+    font-weight: 300;
+    color: #95989A;
+    display: block;
+}
+section.topup-product .form-group input
+{
+    width: 100%;
+
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+
+    outline: none;
+    border: 1px solid #C7C7C7;
+    color: #7C7B7B;
+    font-size: 27px;
+
+    padding: 5px;
+    padding-left: 45px; /* 45px disiapkan untuk input icon */
+}
+
+section.topup-product .input-bg:before
+{
+    content: '';
+    width: 22px;
+    height: 37px;
+
+    position: absolute;
+    bottom: 6px;
+    left: 10px;
+    background: url('../img/icon_phone.png') no-repeat;
+}
+/* -------------------------- End of Topup Product -------------------------- */
 
 
 /* -------------------------- Start Responsive -------------------------- */

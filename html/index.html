@@ -35,6 +35,25 @@
 
   <body>
 
+	<!-- Modal Contact Customer Care -->
+	<div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
+	    <div class="modal-dialog modal-center modal-voucher" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+				  <a href="#" class="pull-right modal-close" data-dismiss="modal">CLOSE</a>
+				</div>
+				<div class="modal-body">
+					<h1><img alt="Brand" src="assets/img/icon_contact.png"> Telp Customer Care</h1>
+					<p><a href="tel:08181234565432">08181234565432 - XL</a></p>
+					<p><a href="tel:085711234567">085711234567 - Indosat</a></p>
+					<p><a href="tel:08131234565431">08131234565431 - Telkomsel</a></p>
+				</div>
+				<div class="modal-footer">
+				</div>
+			</div>
+	    </div>
+	  </div>
+
     <div id="app">
     <div class="app-container">
     <div class="page-homepage">
@@ -54,7 +73,7 @@
 						</div>
 						<!-- pull-right adalah float:right, yakni buat nempelin element di sebelah kanan-->
 						<div class="pull-right">
-							<a href="#" class="btn-block contact">
+							<a href="#" class="btn-block contact" data-dismiss="modal" data-toggle="modal" data-target="#contactModal">
 								<img alt="Brand" src="assets/img/icon_contact.png"> Telp Customer Care
 							</a>
 						</div>

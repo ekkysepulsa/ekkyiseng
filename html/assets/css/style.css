@@ -90,6 +90,58 @@ footer .navbar ul li a
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
+
+/* modal */
+.modal
+{
+    background: rgba(0, 0, 0, 0.4);
+}
+.modal-dialog
+{
+    width: 350px;
+    margin-top: 12%;
+}
+
+.modal-header,
+.modal-footer
+{
+    border: none;
+    padding: 10px 15px;
+}
+.modal-body
+{
+    padding: 0 30px;
+}
+
+
+.modal-header .modal-close
+{
+    font-weight: 500;
+    color: #F02525;
+    font-size: 14px;
+}
+
+
+.modal-body h1
+{
+    font-weight: 500;
+    color: #000000;
+    font-size: 22px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.modal-body p
+{
+    color: #757575;
+    font-size: 18px;
+}
+
+.modal-body a
+{
+    color: #757575;
+}
+
 /* -------------------------- End of Global -------------------------- */
 
 /* -------------------------- Page: Homepage -------------------------- */

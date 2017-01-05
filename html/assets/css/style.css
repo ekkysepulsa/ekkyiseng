@@ -268,18 +268,18 @@ section.topup-product h1
     font-weight: 500;
 }
 
-section.topup-product .form-group
+.form-group
 {
     position: relative;
 }
-section.topup-product .form-group label
+.form-group label
 {
     font-size: 23px;
     font-weight: 300;
     color: #95989A;
     display: block;
 }
-section.topup-product .form-group input
+.form-group input
 {
     width: 100%;
 
@@ -296,10 +296,10 @@ section.topup-product .form-group input
     padding-left: 45px; /* 45px disiapkan untuk input icon */
 }
 
-section.topup-product .form-group.input-bg:before
+.form-group.input-bg:before
 {
     content: '';
-    width: 22px;
+    width: 25px;
     height: 37px;
 
     position: absolute;
@@ -307,15 +307,23 @@ section.topup-product .form-group.input-bg:before
     left: 10px;
     background: url('../img/icon_phone.png') no-repeat;
 }
+.form-group.input-bg.input-phone:before
+{
+    background: url('../img/icon_phone.png') no-repeat;
+}
+.form-group.input-bg.input-password:before
+{
+    background: url('../img/icon_password.png') no-repeat;
+}
 
-section.topup-product .form-group .operator
+.form-group .operator
 {
     position: absolute;
     right: 10px;
     bottom: 8px;
 }
 
-section.topup-product .form-group .operator img
+.form-group .operator img
 {
     max-height: 35px;
 }
@@ -380,13 +388,13 @@ section.confirmation h1
 }
     .confirmation-info
     {
-        margin-bottom: 30px;
+        margin-bottom: 15px;
     }
     .confirmation-info-top
     {
         background: transparent url('../img/bg_coupon_top.png') repeat center;
         width: 100%;
-        height: 15px;
+        height: 10px;
     }
     .confirmation-info-content
     {
@@ -409,7 +417,7 @@ section.confirmation h1
     {
         background: transparent url('../img/bg_coupon_bottom.png') repeat center;
         width: 100%;
-        height: 15px;
+        height: 10px;
     }
 
 .info-topup
@@ -440,6 +448,11 @@ section.confirmation h1
 .info-topup .price
 {
     color: #F02525;
+}
+
+section.confirmation .confirmation-form input
+{
+    width: 100%;
 }
 /* -------------------------- End of Confirmation -------------------------- */
 

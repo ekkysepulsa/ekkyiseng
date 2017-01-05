@@ -329,12 +329,16 @@ section.topup-product .topup-nominal .btn
     margin-bottom: 15px;
 
     color: #F02525;
-    font-size: 35px;
+    font-size: 25px;
+    white-space: normal;
 }
 section.topup-product .topup-nominal .btn p
 {
     margin-bottom: 0;
     padding: 10px 0;
+    word-wrap: break-word;         /* All browsers since IE 5.5+ */
+    overflow-wrap: break-word;     /* Renamed property in CSS3 draft spec */
+    width: 100%;
 }
     section.topup-product .btn:hover,
     section.topup-product .btn:focus,

@@ -3,6 +3,7 @@ html, body
 {
     margin:0;
     font-size: 24px;
+    background: #EEEEF3; 
 }
 
 a, a:hover, a:focus, a:active
@@ -12,7 +13,8 @@ a, a:hover, a:focus, a:active
 
 header
 {
-    padding: 25px 0; /*25px disini sama halnya dengan 25px 0 25px 0 (urutannya: top, right, bottom, left)*/
+    background: #FFF;
+    padding: 20px 0 15px 0; /*25px disini sama halnya dengan 25px 0 25px 0 (urutannya: top, right, bottom, left)*/
 }
 
 .navbar
@@ -27,7 +29,67 @@ header .contact
     line-height: 56px; /* ini di set 56px mengikuti tingginya logo supaya berada pas di tengah-tengah */
 }
 
+/* footer */
+footer
+{
+    position: fixed;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
 
+/* footer navigasi */
+footer .navbar ul
+{
+    width: 100%;
+}
+footer .navbar ul li
+{
+    background: #FFF;
+    border: 1px solid rgba(181, 181, 181, 0.5);
+    width: 33%;
+}
+/* agar tepat 100%, maka navigasi ke-2 di buat 34% karena 100% = 33+34+33 */
+footer .navbar ul li:nth-child(2)
+{
+    width: 34%;
+    border-left: none;
+    border-right: none;
+}
+
+/* berikan lekukan sebelah kiri di navigasi pertama */
+footer .navbar ul li:first-child,
+footer .navbar ul li:first-child a
+{
+    border-radius: 10px 0px 0px 10px;
+    -moz-border-radius: 10px 0px 0px 10px;
+    -webkit-border-radius: 10px 0px 0px 10px;
+}
+/* berikan lekukan sebelah kanan di navigasi pertama */
+footer .navbar ul li:last-child,
+footer .navbar ul li:last-child a
+{
+     border-radius: 0 10px 10px 0;
+    -moz-border-radius: 0 10px 10px 0;
+    -webkit-border-radius: 0 10px 10px 0;   
+}
+
+/* ganti warna background ketika navigasi aktif */
+footer .navbar ul li.active
+{
+    background: #EFEFEF;
+}
+/* tentukan ukuran navigasi, warna navigasi dan buat agar text ke tengah */
+footer .navbar ul li a
+{
+    font-size: 20px;
+    color: #A0A0A0;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 /* -------------------------- End of Global -------------------------- */
 
 /* -------------------------- Page: Homepage -------------------------- */
@@ -35,6 +97,14 @@ header .contact
 {
     height: 90px;
     line-height: 90px;
+}
+
+section.product-list
+{
+    margin: 20px 0 20px 0;
+    max-height: 73vh;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 section.product-list .btn
@@ -45,7 +115,7 @@ section.product-list .btn
     -ms-border-radius: 30px;
     -o-border-radius: 30px;
 
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
     section.product-list .btn:hover,
     section.product-list .btn:focus,

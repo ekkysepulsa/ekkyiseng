@@ -14,7 +14,7 @@ a, a:hover, a:focus, a:active
 header
 {
     background: #FFF;
-    padding: 20px 0 15px 0; /*25px disini sama halnya dengan 25px 0 25px 0 (urutannya: top, right, bottom, left)*/
+    padding: 20px 0 15px 0; /*urutannya: top, right, bottom, left*/
 }
 
 .navbar

@@ -165,6 +165,40 @@ footer .back-button img
     color: #757575;
 }
 
+
+/* breadcrumb : navigasi sebuah halaman 
+    ini perlu diupdate karena default breadcrumb boostrap tidak sesuai dengan desain
+*/
+.breadcrumb
+{
+    background: transparent;
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 20px 0;
+    font-size: 14px;
+    color: #BABABA;
+}
+
+.breadcrumb li
+{
+    color: #BABABA;
+}
+
+.breadcrumb>.active
+{
+    color: #919191;
+}
+
+.breadcrumb>li+li:before {
+    content: "/\00a0";
+    content: "\e258";
+    font-family: 'Glyphicons Halflings';
+    font-size: 12px;
+    padding: 0 5px;
+    color: #ccc;
+}
+
+
 /* -------------------------- End of Global -------------------------- */
 
 /* -------------------------- Page: Homepage -------------------------- */
@@ -213,6 +247,7 @@ section.topup-product
 
 section.topup-product h1
 {
+    margin-top: 0;
     font-size: 35px;
     color: #95989A;
     font-weight: 500;

@@ -173,7 +173,7 @@ footer .back-button img
 {
     background: transparent;
     margin: 0;
-    margin-bottom: 20px;
+    /*margin-bottom: 20px;*/
     padding: 20px 0;
     font-size: 14px;
     color: #BABABA;
@@ -196,6 +196,21 @@ footer .back-button img
     font-size: 12px;
     padding: 0 5px;
     color: #ccc;
+}
+
+/* btn */
+.btn.btn-primary
+{
+    background: #F02525;
+    color: #FFF;
+    border: none;
+}
+.btn.btn-primary:hover,
+.btn.btn-primary:focus,
+.btn.btn-primary:active
+{
+    background: #C31F1F;
+    color: #FFF;
 }
 
 
@@ -248,7 +263,7 @@ section.topup-product
 section.topup-product h1
 {
     margin-top: 0;
-    font-size: 35px;
+    font-size: 26px;
     color: #95989A;
     font-weight: 500;
 }
@@ -348,6 +363,86 @@ section.topup-product .topup-nominal .btn p
         color: #FFF;
     }
 /* -------------------------- End of Topup Product -------------------------- */
+
+/* -------------------------- Page: Confirmation -------------------------- */
+.confirmation-area
+{
+    margin: 0 auto;
+    float: none;
+}
+section.confirmation h1
+{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 26px;
+    color: #95989A;
+}
+    .confirmation-info
+    {
+        margin-bottom: 30px;
+    }
+    .confirmation-info-top
+    {
+        background: transparent url('../img/bg_coupon_top.png') repeat center;
+        width: 100%;
+        height: 15px;
+    }
+    .confirmation-info-content
+    {
+        padding: 20px 30px;
+        background: #FFF;
+        position: relative;
+    }
+        .confirmation-info-content .operator
+        {
+            position: absolute;
+            top: 10px;
+            right: 15px;
+        }
+        .confirmation-info-content .operator img
+        {   
+            max-width: 100px;
+            max-height: 34px;
+        }
+    .confirmation-info-bottom
+    {
+        background: transparent url('../img/bg_coupon_bottom.png') repeat center;
+        width: 100%;
+        height: 15px;
+    }
+
+.info-topup
+{
+    padding: 5px 0;
+    border-bottom: 1px solid rgba(213, 213, 213, 0.7);
+}
+.info-topup:last-child
+{
+    border: none;
+    padding-bottom: 0;
+}
+
+.info-topup label
+{
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+    color: #95989A;
+}
+.info-topup p
+{
+    font-size: 26px;
+    font-weight: 500;
+    margin: 0;
+    color: #9D9D9D;
+}
+.info-topup .price
+{
+    color: #F02525;
+}
+/* -------------------------- End of Confirmation -------------------------- */
+
 
 /* -------------------------- Icon Operator -------------------------- */
 /* dipersiapkan jikalau page sprite*/

@@ -84,96 +84,52 @@
 
 		<!-- ini buat nyimpen bagian content -->
 		<div class="container">
-	    	<section class="product-list">
-    			<form action="topup.html">
-		    		<div class="row">
-		            	<div class="col-lg-3">
-		            		<button class="btn btn-default btn-block btn-lg">
-		            			<div class="logo-operator">
-		            				<img src="assets/img/operator_im3.png">
-		            			</div>
-		            			<p>Indosat</p>
-		            		</button>
-		            	</div>
-		            	<div class="col-lg-3">
-		            		<button class="btn btn-default btn-block btn-lg">
-		            			<div class="logo-operator">
-		            				<img src="assets/img/operator_mentari.png">
-		            			</div>
-		            			<p>Mentari</p>
-		            		</button>
-		            	</div>
-		            	<div class="col-lg-3">
-		            		<button class="btn btn-default btn-block btn-lg">
-		            			<div class="logo-operator">
-		            				<img src="assets/img/operator_kartuas.png">
-		            			</div>
-		            			<p>Kartu As</p>
-		            		</button>
-		            	</div>
-		            	<div class="col-lg-3">
-		            		<button class="btn btn-default btn-block btn-lg">
-		            			<div class="logo-operator">
-		            				<img src="assets/img/operator_simpati.png">
-		            			</div>
-		            			<p>Simpati</p>
-		            		</button>
-		            	</div>
-		            	<div class="col-lg-3">
-		            		<button class="btn btn-default btn-block btn-lg">
-		            			<div class="logo-operator">
-		            				<img src="assets/img/operator_xl.png">
-		            			</div>
-		            			<p>XL</p>
-		            		</button>
-		            	</div>
-		            	<div class="col-lg-3">
-		            		<button class="btn btn-default btn-block btn-lg">
-		            			<div class="logo-operator">
-		            				<img src="assets/img/operator_tri.png">
-		            			</div>
-		            			<p>Tri</p>
-		            		</button>
-		            	</div>
-		            	<div class="col-lg-3">
-		            		<button class="btn btn-default btn-block btn-lg">
-		            			<div class="logo-operator">
-		            				<img src="assets/img/operator_smartfren.png">
-		            			</div>
-		            			<p>Smartfren</p>
-		            		</button>
-		            	</div>
-		            	<div class="col-lg-3">
-		            		<button class="btn btn-default btn-block btn-lg">
-		            			<div class="logo-operator">
-		            				<img src="assets/img/operator_axis.png">
-		            			</div>
-		            			<p>Axis</p>
-		            		</button>
-		            	</div>
-		            	<div class="col-lg-3">
-		            		<button class="btn btn-default btn-block btn-lg">
-		            			<div class="logo-operator">
-		            				<img src="assets/img/operator_pln.png">
-		            			</div>
-		            			<p>PLN</p>
-		            		</button>
-		            	</div>
-		            </div>
-	            </form>
+	    	<section class="confirmation">
+	    		<div class="row">
+	    			<div class="col-lg-12">
+	    				<ol class="breadcrumb">
+						  <li class="breadcrumb-item">Pilih Product</li>
+						  <li class="breadcrumb-item">Isi pulsa XL</li>
+						  <li class="breadcrumb-item active">Konfirmasi pembayaran</li>
+						</ol>
+	    			</div>
+    			</div>
+    			<div class="row">
+	    			<div class="col-lg-5 confirmation-area">
+	    				<h1>Konfirmasi Pembayaran</h1>
+
+	    				<div class="confirmation-info">
+	    					<div class="confirmation-info-top">&nbsp;</div>
+	    					<div class="confirmation-info-content">
+		    					<span class="operator operator-xl"><img src="assets/img/operator_xl.png" alt="operator xl"></span>
+		    					<div class="info-topup">
+		    						<label>Nomor Handphone</label>
+		    						<p>0877 1234 1234</p>
+		    					</div>
+		    					<div class="info-topup">
+		    						<label>Nominal</label>
+		    						<p>100.000</p>
+		    					</div>
+		    					<div class="info-topup">
+		    						<label>Harga</label>
+		    						<p class="price">Rp90.000</p>
+		    					</div>
+	    					</div>
+	    					<div class="confirmation-info-bottom">&nbsp;</div>
+	    				</div>
+
+	    				<div>
+	    					<button class="btn btn-primary btn-block btn-lg">Konfirmasi Pesanan</button>
+	    				</div>
+	    			</div>
+	            </div>
 	    	</section>
         </div>
 
     	<!-- ini buat nyimpen bagian footer -->
     	<footer>
     		<div class="container">
-    			<nav class="navbar">
-    				<ul class="nav navbar-nav">
-				        <li class="active"><a href="#">Beranda</a></li>
-				        <li class=""><a href="#">Riwayat Transaksi</a></li>
-				        <li class=""><a href="#">Riwayat Deposit</a></li>
-		        	</ul>
-				</nav>
+    			<a href="javascript:history.back()" class="back-button"><img src="assets/img/icon_arrow_back.png"><span>Kembali</span></a>
     		</div>
     	</footer>
 
@@ -198,5 +154,11 @@
 
     <!-- Link to the javascript file we will create -->
     <script src="assets/js/scripts.js"></script>
+
+    <script type="text/javascript">
+    	$(document).ready(function(){
+			$( "#InputPhone" ).focus();
+		});
+    </script>
   </body>
 </html>

@@ -281,7 +281,7 @@ section.topup-product .form-group input
     padding-left: 45px; /* 45px disiapkan untuk input icon */
 }
 
-section.topup-product .input-bg:before
+section.topup-product .form-group.input-bg:before
 {
     content: '';
     width: 22px;
@@ -292,8 +292,94 @@ section.topup-product .input-bg:before
     left: 10px;
     background: url('../img/icon_phone.png') no-repeat;
 }
+
+section.topup-product .form-group .operator
+{
+    position: absolute;
+    right: 10px;
+    bottom: 8px;
+}
+
+section.topup-product .form-group .operator img
+{
+    max-height: 35px;
+}
+
+/* topup-nominal */
+section.topup-product .topup-nominal
+{
+    margin-top: 50px;
+}
+
+section.topup-product .topup-nominal
+{
+    font-size: 23px;
+    color: #95989A;
+    font-weight: 300;
+}
+
+section.topup-product .topup-nominal .btn
+{
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+
+    margin-bottom: 15px;
+
+    color: #F02525;
+    font-size: 35px;
+}
+section.topup-product .topup-nominal .btn p
+{
+    margin-bottom: 0;
+    padding: 10px 0;
+}
+    section.topup-product .btn:hover,
+    section.topup-product .btn:focus,
+    section.topup-product .btn:active
+    {
+        background: #F02525;
+        color: #FFF;
+    }
 /* -------------------------- End of Topup Product -------------------------- */
 
+/* -------------------------- Icon Operator -------------------------- */
+/* dipersiapkan jikalau page sprite*/
+.operator.operator-xl:before
+{
+
+}
+.operator.operator-simpati:before
+{
+
+}
+.operator.operator-kartuas:before
+{
+
+}
+.operator.operator-im3:before
+{
+
+}
+.operator.operator-mentari:before
+{
+
+}
+.operator.operator-tri:before
+{
+
+}
+.operator.operator-axis:before
+{
+
+}
+.operator.operator-pln:before
+{
+
+}
+/* -------------------------- End of Icon Operator -------------------------- */
 
 /* -------------------------- Start Responsive -------------------------- */
 @media (min-width: 1200px) {

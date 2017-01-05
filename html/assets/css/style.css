@@ -1,0 +1,70 @@
+/* -------------------------- Global Style -------------------------- */
+html, body
+{
+    margin:0;
+    font-size: 24px;
+}
+
+a, a:hover, a:focus, a:active
+{
+    text-decoration: none;  /*default link = ada garis bawah, nah dg seperti ini buat ilangin garis bawah */
+}
+
+header
+{
+    padding: 25px 0; /*25px disini sama halnya dengan 25px 0 25px 0 (urutannya: top, right, bottom, left)*/
+}
+
+.navbar
+{
+    margin-bottom: 0; /* defaultnya "margin-bottom: 20px", ini dijadiin 0 supaya gada jarak */
+}
+
+header .contact
+{
+    font-size: 18px;
+    color: #9A9697;
+    line-height: 56px; /* ini di set 56px mengikuti tingginya logo supaya berada pas di tengah-tengah */
+}
+
+
+/* -------------------------- End of Global -------------------------- */
+
+/* -------------------------- Page: Homepage -------------------------- */
+.logo-operator
+{
+    height: 90px;
+    line-height: 90px;
+}
+
+section.product-list .btn
+{
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+
+    margin-bottom: 30px;
+}
+    section.product-list .btn:hover,
+    section.product-list .btn:focus,
+    section.product-list .btn:active
+    {
+        background: #B4B4B4;
+    }
+
+section.product-list .btn img
+{
+    max-height: 85px;
+}
+/* -------------------------- End of Homepage -------------------------- */
+
+
+/* -------------------------- Start Responsive -------------------------- */
+@media (min-width: 1200px) {
+  .container {
+        width: 1024px;
+    }
+}
+/* -------------------------- End of Responsive -------------------------- */

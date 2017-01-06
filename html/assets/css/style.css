@@ -634,6 +634,38 @@ section.riwayat .title p
 }
 /* -------------------------- End of Riwayat -------------------------- */
 
+/* -------------------------- Page: Riwayat Deposit -------------------------- */
+.list-riwayat-deposit table tr th {
+    width: 30%;
+}
+.list-riwayat-deposit table tr th:last-child {
+    width: 10%;
+}
+
+
+.list-riwayat-deposit table tr td
+{
+    width: 25%;
+}
+.list-riwayat-deposit table tr td:first-child {
+    width: 27%;
+}
+.list-riwayat-deposit table tr td:last-child {
+    width: 24%;
+}
+
+
+.list-riwayat-deposit table.riwayat-tipe tr td
+{
+    width: auto;
+}
+.list-riwayat-deposit table.riwayat-tipe tr td:first-child
+{
+    width: 30px;
+}
+
+/* -------------------------- End of Riwayat Deposit -------------------------- */
+
 /* -------------------------- Icon Operator -------------------------- */
 /* dipersiapkan jikalau page sprite*/
 .operator.operator-xl:before

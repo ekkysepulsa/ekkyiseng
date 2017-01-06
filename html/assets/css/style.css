@@ -512,6 +512,128 @@ section.complete .complete-info p
 
 /* -------------------------- End of Complete -------------------------- */
 
+/* -------------------------- Page: Riwayat -------------------------- */
+section.riwayat
+{
+    margin-top: 30px;
+}
+section.riwayat .title h1
+{
+    font-size: 35px;
+    color: #95989A;
+    margin-top: 0;
+}
+section.riwayat .title p
+{
+    font-size: 23px;
+    color: #95989A;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+.list-riwayat table
+{
+    margin-top: 20px;
+    width: 100%;
+}
+.list-riwayat table thead
+{
+    background: #FFF;
+}
+.list-riwayat table tr th
+{
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px;
+    border-right: 1px solid #DDDDDD;
+    width: 20%;
+}
+    .list-riwayat table tr th:last-child
+    {
+        border: none;
+    }
+.list-riwayat table tr td
+{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 5px 10px;
+    width: 20%;
+}
+
+    .list-riwayat table tr th:first-child,
+    .list-riwayat table tr td:first-child
+    {
+        width: 30%;
+    }
+    .list-riwayat table tr th:last-child
+    {
+        width: 9%;
+    }
+    .list-riwayat table tr td:last-child
+    {
+        /*width: 16%;*/
+        padding-right: 40px;
+    }
+
+
+.list-riwayat table thead tr
+{
+  display: block;
+  position: relative;
+}
+.list-riwayat table tbody
+{
+    width: 100%;
+    max-height: 50vh;
+    display: block;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.list-riwayat table tbody tr:nth-child(odd)
+{
+    background: rgba(255, 255, 255, 0.74);
+}
+.list-riwayat table tbody tr:nth-child(even)
+{
+    background: rgba(255, 255, 255, 0.34)
+}
+
+.list-riwayat table.riwayat-tipe
+{
+    margin: 0;
+}
+.list-riwayat table.riwayat-tipe img
+{
+    max-width: 40px;
+    max-height: 33px;
+}
+.list-riwayat table.riwayat-tipe tbody tr
+{
+    background: transparent;
+}
+.list-riwayat table.riwayat-tipe tr td
+{
+    width: auto;
+}
+
+.status-sukses
+{
+    color: #82C769;
+}
+.status-pending
+{
+    color: #E6CA00;
+}
+.status-cancel
+{
+    color: #FF6200;
+}
+.status-failed
+{
+    color: #DE1D4D;
+}
+/* -------------------------- End of Riwayat -------------------------- */
+
 /* -------------------------- Icon Operator -------------------------- */
 /* dipersiapkan jikalau page sprite*/
 .operator.operator-xl:before

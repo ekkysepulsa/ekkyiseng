@@ -632,6 +632,22 @@ section.riwayat .title p
 {
     color: #DE1D4D;
 }
+
+.form-search
+{
+    margin-top: 30px;
+}
+
+.form-search input
+{
+    width: 70%;
+    height: 49px;
+    float: left;
+    margin-right: 10px;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
 /* -------------------------- End of Riwayat -------------------------- */
 
 /* -------------------------- Page: Riwayat Deposit -------------------------- */

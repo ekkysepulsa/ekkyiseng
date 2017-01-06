@@ -204,6 +204,10 @@ footer .back-button img
     background: #F02525;
     color: #FFF;
     border: none;
+
+    -webkit-box-shadow: 0 3px 6px 0px rgba(0, 0, 0, 0.16);
+    -moz-box-shadow: 0 3px 6px 0px rgba(0, 0, 0, 0.16);
+    box-shadow: 0 3px 6px 0px rgba(0, 0, 0, 0.16)
 }
 .btn.btn-primary:hover,
 .btn.btn-primary:focus,
@@ -240,6 +244,10 @@ section.product-list .btn
     -o-border-radius: 30px;
 
     margin-bottom: 25px;
+
+    -webkit-box-shadow: 0 2px 10px 0px rgba(100, 100, 100, 0.16);
+    -moz-box-shadow: 0 2px 10px 0px rgba(100, 100, 100, 0.16);
+    box-shadow: 0 2px 10px 0px rgba(100, 100, 100, 0.16);
 }
     section.product-list .btn:hover,
     section.product-list .btn:focus,
@@ -354,6 +362,10 @@ section.topup-product .topup-nominal .btn
     color: #F02525;
     font-size: 25px;
     white-space: normal;
+
+    -webkit-box-shadow: 0 2px 10px 0px rgba(100, 100, 100, 0.16);
+    -moz-box-shadow: 0 2px 10px 0px rgba(100, 100, 100, 0.16);
+    box-shadow: 0 2px 10px 0px rgba(100, 100, 100, 0.16);
 }
 section.topup-product .topup-nominal .btn p
 {
@@ -456,6 +468,49 @@ section.confirmation .confirmation-form input
 }
 /* -------------------------- End of Confirmation -------------------------- */
 
+/* -------------------------- Page: Complete -------------------------- */
+.complete-area
+{
+    margin: 0 auto;
+    float: none;
+}
+
+section.complete .complete-info
+{
+    margin-top: 25%;  
+    margin-bottom: 20px;
+    padding: 30px;
+    background: #FFF;  
+    text-align: center;
+
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+
+    -webkit-box-shadow: 0 3px 6px 0px rgba(0, 0, 0, 0.16);
+    -moz-box-shadow: 0 3px 6px 0px rgba(0, 0, 0, 0.16);
+    box-shadow: 0 3px 6px 0px rgba(0, 0, 0, 0.16);
+}
+section.complete .complete-info h1
+{
+    font-size: 40px;
+    font-weight: 600;
+    color: #58595B;
+    margin-bottom: 0;
+}
+section.complete .complete-info p.sub-headline
+{
+    font-size: 18px;
+    font-weight: 400;
+    color: #BABABA;
+}
+section.complete .complete-info p
+{
+    font-size: 23px;
+    color: #6F6969;
+}
+
+/* -------------------------- End of Complete -------------------------- */
 
 /* -------------------------- Icon Operator -------------------------- */
 /* dipersiapkan jikalau page sprite*/
